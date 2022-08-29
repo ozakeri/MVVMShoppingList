@@ -9,7 +9,7 @@ data class ShopItem(
     @ColumnInfo(name = "name")
     val name: String,
     @ColumnInfo(name = "amount")
-    val amount: Int
+    var amount: Int
 ) {
 
     @PrimaryKey(autoGenerate = true)
